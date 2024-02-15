@@ -1,0 +1,29 @@
+{
+  "name": "pdfman",
+  "version": "1.0.0",
+  "description": "Render HTML file to PDF quickly",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "puppetteer",
+    "html-to-pdf",
+    "chromium",
+    "headless"
+  ],
+  "author": "Gorvely Tasinda",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "puppeteer": "^22.0.0",
+    "puppeteer-report": "^3.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

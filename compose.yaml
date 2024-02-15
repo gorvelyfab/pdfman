@@ -1,0 +1,14 @@
+services:
+  pdfman:
+    build: .
+    restart: always
+    ports:
+      - 5500:5500
+    command: npm run dev
+    environment:
+      PORT: 5500
+    develop:
+      watch:
+        - action: sync
+          path: ./
+          target: /app
